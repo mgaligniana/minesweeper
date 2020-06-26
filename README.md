@@ -1,13 +1,6 @@
 # RESTful API for a minesweeper game
 
-## Actions supported
-* Create a game: The user has to initiate the game, indicating the size of the grid and how many mines to include (the mines are placed randomly)
-
-* "Flag" a cell as containing a mine: The user can "flag" a given cell indicating that there's a mine in there
-
-* "Reveal" a cell: The user can decide to reveal a cell. If there's a mine in there, he/she lost
-
-* Get the board: Just returns the entire board with the revealed positions and the flags
+There were completed bullets: 1A, 1B, 1C and 1D defined in the [challenge file](https://github.com/mgaligniana/minesweeper/blob/master/CHALLENGE.md)
 
 ## Stack used
 * Django
