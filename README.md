@@ -1,6 +1,6 @@
 # RESTful API for a minesweeper game
 
-There were completed bullets: 1A, 1B, 1C and 1D defined in the [challenge file](https://github.com/mgaligniana/minesweeper/blob/master/CHALLENGE.md)
+Here is the implementation for bullets: 1A, 1B, 1C and 1D defined in the [challenge file](https://github.com/mgaligniana/minesweeper/blob/master/CHALLENGE.md)
 
 ## Stack used
 * Django
