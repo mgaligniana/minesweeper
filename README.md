@@ -7,21 +7,6 @@ Here is the implementation for bullets: 1A, 1B, 1C and 1D defined in the [challe
 * Django Rest Framework
 * PostgreSQL
 
-> This is a local project; please set up a postgres db and overwrite the settings in app/settings.py, sorry.
-
-```
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'minesweeperdb',
-        'USER': 'minesweeperuser',
-        'PASSWORD': 'minesweeperpassword',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
-}
-```
-
 ## Project folders structure
 
 ```
@@ -33,16 +18,15 @@ DATABASES = {
 ## Run the project
 
 ```
-pipenv install
-pipenv shell
-./manage.py migrate
-./manage.py runserver
+docker-compose build
+docker-compose up
+docker-compose run web python manage.py migrate
 ```
 
 ## Run tests
 
 ```
-./manage.py test api.tests
+docker-compose run web python manage.py test
 ```
 
 ## API endpoints documentation
